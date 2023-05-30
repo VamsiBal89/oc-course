@@ -8,7 +8,7 @@ spec:
   containers:
   - env:
     - name: MESSAGE
-      value: Hi! I'm an environment variable
+      value: This is vamsi's 2nd oc pod
     image: vamsibal/multi-buuild:latest
     imagePullPolicy: Always
     name: hello-world
